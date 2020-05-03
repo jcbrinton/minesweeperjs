@@ -1,0 +1,75 @@
+/*Start game menu*/
+input[type=text], label{
+display:block;
+}
+li{
+display: table-cell;
+}
+#banner{
+background-color:orange;
+height: 50px;
+}
+body{
+margin: 0px;
+
+}
+div span{
+padding: 10px;
+}
+
+/*cells*/
+.untouched{
+width:10px;
+height:10px;
+padding: 10px;
+background-color:grey;
+cursor:pointer;
+
+}
+.flagged{
+background-color:red;
+}
+.touched{
+width:10px;
+height:10px;
+padding: 10px;
+background-color:white;
+cursor: auto;
+}
+.uncover{
+cursor: default;
+display:none;
+
+}
+
+table, th, td {
+    border: 0px solid black;
+    border-collapse: collapse;
+}
+
+/*Colors for numbers*/
+[num='1']{
+color:blue;
+}
+[num='2']{
+color:red;
+}
+[num='3']{
+color:green;
+}
+[num='4']{
+color:orange;
+}
+[num='5']{
+color:purple;
+}
+[num='6']{
+color:brown;
+}
+[num='7']{
+color:grey;
+}
+[num='8']{
+color:black;
+}
+
